@@ -22,7 +22,7 @@ const Home = () => {
     <div className="home-container">
       <h1 className="home-title">Find Your Favorite Recipes 🍽️</h1>
 
-       {/* 🔗 Favorites Page Link */}
+   
        <Link to="/favorites" className="favorites-link">
         ❤️ View Favorites
       </Link>
