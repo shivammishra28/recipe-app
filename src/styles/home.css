@@ -1,0 +1,72 @@
+.home-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.search-box {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.search-box input {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.search-box button {
+  padding: 10px 15px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.recipe-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.no-results {
+  color: red;
+  font-weight: bold;
+}
+.home-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+.recipe-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.no-results {
+  font-size: 1.2rem;
+  color: red;
+}
+.favorites-link {
+  display: inline-block;
+  margin: 10px 0;
+  padding: 10px 15px;
+  background-color: #ff4081;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.favorites-link:hover {
+  background-color: #d81b60;
+}

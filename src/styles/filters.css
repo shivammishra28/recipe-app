@@ -1,0 +1,19 @@
+.filters-container {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .filters-container label {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .filters-container select {
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
