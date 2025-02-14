@@ -53,7 +53,7 @@ const recipeSlice = createSlice({
     setFilters: (state, action) => {
       state.filters = action.payload;
     
-      // Apply filters to all fetched recipes, not just the current filtered list
+    
       state.filteredRecipes = state.recipes.filter((recipe) => {
         const meetsDiet =
           state.filters.diet === "All" || recipe.dietLabels.includes(state.filters.diet);
@@ -85,7 +85,7 @@ const recipeSlice = createSlice({
         state.loading = false;
         state.recipes = action.payload;
       
-        // Apply filters to the fetched recipes
+      
         state.filteredRecipes = action.payload.filter((recipe) => {
           const meetsDiet =
             state.filters.diet === "All" || recipe.dietLabels.includes(state.filters.diet);
